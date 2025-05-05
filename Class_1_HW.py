@@ -5,16 +5,12 @@ bangla_mark = int(input("Your marks in bangla: "))
 english_mark = int(input("Your marks in english: "))
 math_mark = int(input("Your marks in math: "))
 
-print("  ")
+print(" ")
 print("Student Report:")
 print("-----------------------")
-
 print("Name: ", user_name)
 print("Age: ", user_age)
 print("Roll Number: ", user_roll)
-print("Marks in Bangla: ", bangla_mark)
-print("Marks in English: ", english_mark)
-print("Marks in Math: ", math_mark)
 
 total_marks = bangla_mark + english_mark + math_mark
 
